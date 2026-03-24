@@ -55,3 +55,9 @@ addBtn.addEventListener("click", () => {
   const result = add(Number(num1.value), Number(num2.value));
   calcResult.textContent = 'Result: ${result}';
 });
+
+const sub = (a,b) => a - b;
+subtractBtn.addEventListener("click", () => {
+  const result = sub(Number(num1.value), Number(num2.value));
+  calcResult.textContent = 'Result: ${result}';
+});
